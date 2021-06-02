@@ -46,6 +46,9 @@ function draw() {
   rectMode(CENTER);
   background(255,250,250);
   Engine.update(engine);
+
+  textSize(20);
+  text("Use the Up Arrow key to move the pendulum.",100,100);
   
   bob1.display();
   bob2.display();
